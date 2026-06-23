@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Head TCG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dragon Head TCG</h1>
+    </header>
+
+    <section class="form-section">
+        <input id="name" type="text" placeholder="Nombre">
+        <input id="attack" type="number" placeholder="Ataque">
+        <input id="image" type="text" placeholder="URL Imagen">
+        <button id="add-card">Crear Carta...</button>
+    </section>
+
+    <section>
+        <input id="search" type="text" placeholder="Buscar carta...">
+    </section>
+
+    <section class="stats">
+        <p id="total"></p>
+        <p id="average"></p>
+        <p id="strongest"></p>
+    </section>
+
+    <section id="card-container" class="card-grid"></section>
+
+    <script src="script.js"></script>
+</body>
+</html>
